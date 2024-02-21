@@ -7,7 +7,7 @@ body {
 
 header {
     background: linear-gradient(to right, #d9b3ff, #b3b3ff);
-    color: #000000;
+    color: #ffffff;
     padding: 1em;
     text-align: center;
 }
@@ -29,7 +29,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -63,10 +63,9 @@ article img {
 }
 
 footer {
-    text-align: left;
     padding: 1em;
     background: linear-gradient(to right, #d9b3ff, #b3b3ff);
-    color: #000000;
+    color: #ffffff;
 }
 
 article{
@@ -92,17 +91,34 @@ button:hover{
 }
 
 footer h3{
-    color: #07000071;
+    color: #ffffffbb;
 }
 
 footer p{
     text-align: center;
+    margin-top: 40px;
 }
 
-article img {
-    max-width: 100%;
-    height: auto;
-    display: flex;
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
 }
-  
+
+a:hover{
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.979);
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+footer li {
+    margin-bottom: 15px;
+}
+
+
+
 
